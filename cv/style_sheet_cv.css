@@ -1,0 +1,102 @@
+
+body {
+  background-color: rgb(33, 33, 33);
+  color: #f5f5f5;
+  padding: 10px;
+}
+
+h1{
+  font-family:"Sora";
+  font-size:54px;
+  margin-bottom: 0px;
+  margin-top: 0px;
+  text-align: right;
+}
+
+ul {
+  margin: 5px;
+}
+
+svg {
+  color: rgb(128, 142, 223);
+}
+
+div{
+  font-family: "Quicksand";
+  font-weight: medium;
+}
+
+.title{
+  color: rgb(128, 142, 223);
+}
+
+.wrapper{
+  max-width: 770px;
+  display: flex;
+  flex-direction: column;
+  text-align: justify;
+  margin: auto;
+}
+
+.header {
+  display: flex;
+  align-items: flex-start;
+  margin-bottom: 15px;
+}
+.label{
+  font-size: 14px;
+  margin: 5px;
+}
+
+.label-wrapper {
+  align-items: center; 
+  display: flex;
+}
+
+.contacts{
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start; 
+  align-items: flex-start;     
+  margin-top: 10px;
+}
+
+.section-title{
+  font-size: 22px;
+  font-weight: 600;
+}
+
+.section-title::after {
+  content: ''; 
+  display: block; 
+  border-bottom: 2px solid rgba(245, 245, 245, 0.2); 
+  margin-top: 3px; 
+  width: 55%;
+  margin-left: 20px;
+  margin-bottom: 15px;
+}
+
+.section {
+  margin-bottom: 25px;
+}
+
+.content {
+  text-align: left; 
+}
+
+.sub-section {
+  display: flex;
+  align-items: center;
+  justify-content: space-between; 
+  margin-bottom: 15px;
+}
+.section-list {
+  display: block;
+}
+
+.date{
+  text-align: right;
+}
+
+@media screen and (min-width:700px){
+}
