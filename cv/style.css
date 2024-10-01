@@ -75,11 +75,6 @@ div{
   font-weight: 600;
 }
 
-.section-title:hover{
-  color: #f5f5f5;
-  transition: 0.4s;
-}
-
 .section-title::after {
   content: ''; 
   display: block; 
